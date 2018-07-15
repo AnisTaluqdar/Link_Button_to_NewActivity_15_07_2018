@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity">
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in and enjoy...."
+        android:textSize="45dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TV1"
+        android:layout_margin="100dp"
+        android:layout_centerInParent="true"
+
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="30dp"
+            android:background="#0ee707"
+
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="30dp"
+            android:background="#ccff00"
+            />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/BT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:background="#0ee2e2"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.abhi.com"
+        android:textSize="40dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#e1c80b"
+
+
+
+        />
+
+
+</RelativeLayout>
